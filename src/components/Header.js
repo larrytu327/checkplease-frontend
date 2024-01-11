@@ -9,7 +9,7 @@ const Header = (props) => {
                         src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
                     />
                 </Link>
-                <div>People App</div>
+                <div>Check Please</div>
             </nav>
             <img style={{ width: "100%" }} src="...your header image" />
         </header>
