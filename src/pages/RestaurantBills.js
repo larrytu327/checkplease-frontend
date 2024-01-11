@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const RestaurantBills = (props) => {
     const [ restaurantbills, setRestaurantbills ] = useState([]);
@@ -47,9 +47,6 @@ const RestaurantBills = (props) => {
   return (
     <section className="people-list">{restaurantbills && restaurantbills.length ? loaded() : loading()}</section>
   );
-
-
-    return <h1>Restaurant Bills Page</h1>
 }
 
 export default RestaurantBills
